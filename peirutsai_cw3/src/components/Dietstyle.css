@@ -1,0 +1,108 @@
+.diet{
+  width:100%;
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  background:white;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  background: #E8D3BF;
+
+}
+
+.diet .left{
+  text-align: center;
+  margin: auto;
+  max-width: 100%;
+  padding: 10%;
+  align-items: center;
+}
+
+.card{
+  text-align: center;
+}
+
+.btn{
+  font-weight: 500;
+  font-size: 1rem;
+  display: block;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(196, 196, 196, 0.52);
+  color: white;
+
+}
+
+.diet h3{
+  text-align:center;
+  margin-bottom: 10px;
+  font-size: 2rem;
+  color: #51827A;
+}
+
+.diet p{
+  text-align:center;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #51827A;
+}
+
+.diet.right{
+  align-items: center;
+  max-width:100%;
+}
+
+.right .img-container{
+  display: grid;
+  grid-template-columns:repeat(12,1fr);
+  position: relative;
+  align-items: center;
+  text-align: center;
+
+}
+
+.right .img1{
+  max-width:90%;
+  border: 3px solid #E8D3BF;
+}
+
+.right .img-stacktop{
+  grid-column: 2 / span 8;
+  grid-row: 1;
+  padding-top: 10%;
+  z-index:6;
+}
+
+.right .img-stackbottom{
+  grid-column: 4 / -2;
+  grid-row: 1;
+  z-index:3;
+}
+
+
+.diet .card-container{
+   margin:auto;
+   display:grid;
+   grid-gap:0px;
+   grid-template-columns: repeat(2,1fr);
+   align-items: center;
+   max-width: 100%;
+
+}
+
+.diet .card{
+  text-align: center;
+  padding:0rem;
+}
+
+@media screen and (max-width:1140px){
+  .diet{
+    grid-template-columns: 2fr;
+    max-width: 100%;
+  }
+  .diet .img1{
+    max-width: 90%;
+  }
+
+
+}
