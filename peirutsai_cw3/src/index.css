@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Montserrat&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+ box-sizing: border-box;
+ margin:0;
+ padding:0;
+}
+
+h1,p,a{
+  color:white;
+}
+
+body {
+  margin: 0;
+  font-family: 'Outfit', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:#E8D3BF;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn{
+  padding:12px 32px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background:transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;;
+}
+
+button{
+  font-family: 'Outfit';
+  padding:10px 38px;
+  margin-top: 40px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background:transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+button:hover{
+background:rgba(255,255,255, .2);
+}
+
+button-light{
+  background:rgba(255,255,255, .2);
+}
+
+.btn-light{
+  background:rgba(255,255,255, .2);
+}
+
+.btn:hover{
+background:rgba(255,255,255, .2);
+}
